@@ -1,0 +1,105 @@
+/* CSS Document */
+/* CSS from hw7 */
+.top_container {
+	padding-top:80px;
+}
+.panel-default > .panel-heading {
+	background-image: linear-gradient(to bottom, #215c98 0%, #163D64 100%);
+}
+.panel-title {
+	color: white;
+}
+
+nav {
+	background-image: linear-gradient(to bottom, #215c98 0%, #163D64 100%) !important;
+}
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: Verdana;
+	font-size: 25px !important;
+}
+.navactive {
+	border-bottom: 1px solid white
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.main-nav li {
+	margin: 0px;
+}
+.color_animation {
+	margin-right: 0px;
+ 	margin-left: 0px !important;
+}
+.color_animation:hover{
+    color: black !important;
+}
+li {
+	color: black !important;;
+}
+.success-alert {
+	color: green;
+}
+.error-alert {
+	color: red;
+}
+
+/* CSS from hw6 */
+.custom-button {
+	text-decoration: none;
+	font: bold 12px;
+	text-align: center;
+	background-color:#adadad;
+	color:#000000;
+	padding:5px;
+	display:inline-block;
+}
+.custom-button:hover, .custom-button:active {
+	background-color: #6e6e6e;
+	color: white;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.nav-button {
+	text-decoration: none;
+	font: bold 12px;
+	text-align: center;
+	background-color:#adadad;
+	color:#000000;
+	padding:5px 0px 5px 0px;
+	display:inline-block;
+	width:100%;
+}
+.nav-button:hover, .button:active {
+	background-color: #6e6e6e;
+	color: white;
+	cursor:pointer
+}
+
+.content {
+	background-color:white;
+	width:100%;
+}
+.content-banner {
+	background-color:#074f69;
+	text-align:center;
+}
+
+.schedule-table {
+	background-color:#adadad;
+	border: 1px solid;
+}
+.schedule-header {
+	background-color:#747474;
+}
+.schedule-td {
+	border: 1px solid;
+}
+
+.side-list {
+	width:40%;
+}
+.side-paragraph {
+	width:60%;
+}
