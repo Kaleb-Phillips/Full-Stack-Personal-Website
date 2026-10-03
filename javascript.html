@@ -1,0 +1,30 @@
+<!--
+ * javascript.html - Example page using only JavaScript
+ *
+ * Example page that displays a form for users to fill out to create a
+ * new account. Used with html-event-handler.js, event-listener.js, or 
+ * dom-event-handler.js as an example of creating a dynamic webpage 
+ * only using JavaScript.
+ *
+ * Author: Kaleb Phillips
+ * Date: December 2 2024
+ * Class: UTSA CS-4413-002 Web Technologies
+ -->
+
+<body>
+    <div id="page">
+        <h1>List King</h1>
+        <h2>New Account</h2>
+        <div>
+            <label for="username">Create a username: </label>
+            <input type="text" id="username" />
+            <div id="feedback"></div>
+        </div>
+        <div>
+            <label for="password">Create a password: </label>
+            <input type="password" id="password" />
+            <input type="submit" value="sign up!" />
+        </div>
+    </div>
+    <script src="assets/js/event-listener.js"></script>
+</body>

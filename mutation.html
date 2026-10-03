@@ -1,0 +1,42 @@
+<!--
+ * mutation.html - Example Shopping List page using Mutation
+ *
+ * Example page displays a shopping list that is
+ * implemented using Mutations. Users can add items to the
+ * list by typing the name of an item to add. Users can
+ * remove items by clicking on them. The counter Updates
+ * as items are added and removed. Used with mutation.js
+ * as an example of using Mutations.
+ *
+ * Author: Kaleb Phillips
+ * Date: December 2 2024
+ * Class: UTSA CS-4413-002 Web Technologies
+ -->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mutation Example</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<div id="row">
+	<div id="col-md-12">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Shopping List Items: <span id="counter">1</span></h3>
+			</div>
+			<div class="panel-body" id="list">
+				<div class="alert alert-info" id="0">Tomatoes</div>
+			</div>
+			<div class="panel-footer">
+				<input type="text" id="itemName">
+				<button type="button" class="btn btn-primary" id="addToList">Add Item</button>
+			</div>
+		</div>
+	</div>
+</div>
+<body>
+</body>
+</html>
+<script src="assets/js/mutation.js"></script>
